@@ -1,0 +1,19 @@
+<ion-view view-title="ILoveMe">
+	<ion-content class="padding has-header has-subheader">
+		<ion-list>
+        <ion-item>
+          <span class="input-label">First Name</span>
+          <input class="inputArea" type="text" id="userName" placeholder="Your First Name" ng-model="input.firstName">
+        </ion-item>
+        
+      <div class="item range range-calm">
+        <i class="icon ion-android-sad"></i>
+        <input type="range" name="feeling" min="1" max="100" value="30" ng-model="input.moodNum">
+        <i class="icon ion-android-happy"></i>
+      </div>
+
+      <ion-item class="button button-block padding-right padding-left enterButton" href="#/tab/home/love">Enter</ion-item>
+
+
+	</ion-content>
+</ion-view>

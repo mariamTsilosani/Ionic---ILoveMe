@@ -1,0 +1,47 @@
+/* Empty. Add your own CSS if you like */
+.heart {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    display: block;
+    }
+    
+    ion-list {
+    	padding: 80px;
+    }
+
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: #ff8080 !important;
+	}
+
+.background, .inputArea, .background .pane, .background .item, .background .item-complex .item-content{
+    background-color: #ffe6e6;
+}
+.welcomeHeart{
+	color: red;
+	}
+.nameHeart{
+    color: #ff8080;
+}
+.red{
+	color: red;
+	}
+.navBar{
+	background-color: #ff8080 !important;
+	}
+.infoHeader, .infoFooter {
+	background-color: #ff8080 !important;
+}
+.enterButton{
+	color: #ff8080 !important;
+	border-color: #ff8080 !important;
+}
+.pink{
+    color: #ff8080 !important;
+}
+
+	
